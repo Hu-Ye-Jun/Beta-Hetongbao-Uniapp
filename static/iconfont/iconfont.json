@@ -1,0 +1,65 @@
+{
+  "id": "4601121",
+  "name": "ai合同",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "300373",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "577357",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e74b",
+      "unicode_decimal": 59211
+    },
+    {
+      "icon_id": "5387520",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "eaf1",
+      "unicode_decimal": 60145
+    },
+    {
+      "icon_id": "5387522",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "eaf3",
+      "unicode_decimal": 60147
+    },
+    {
+      "icon_id": "7008930",
+      "name": "enter",
+      "font_class": "enter",
+      "unicode": "e6f8",
+      "unicode_decimal": 59128
+    },
+    {
+      "icon_id": "1174",
+      "name": "用研",
+      "font_class": "yongyan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "837612",
+      "name": "语音",
+      "font_class": "yuyin",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "6219264",
+      "name": "清空",
+      "font_class": "qingkong",
+      "unicode": "e946",
+      "unicode_decimal": 59718
+    }
+  ]
+}
