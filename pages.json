@@ -1,0 +1,366 @@
+{
+	"easycom": {
+		// 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+		"custom": {
+			"^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/record/record",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "合同历史记录"
+			}
+		},
+
+		{
+			"path": "pages/uploadtext/uploadtext",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "木瓜合同宝"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "登录"
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mobile/mobile",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "手机号登录"
+			}
+		},
+		{
+			"path": "pages/template/template",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "合同模板"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#999999",
+		"list": [{
+				"iconPath": "static/image/review.png",
+				"pagePath": "pages/index/index",
+				"selectedIconPath": "static/image/reviewSelect.png",
+				"text": "合同审查"
+			},
+			{
+				"iconPath": "static/image/temp.png",
+				"pagePath": "pages/template/template",
+				"selectedIconPath": "static/image/tempSelect.png",
+				"text": "合同模板库"
+			},
+			// {
+			// 	"iconPath": "static/image/history.png",
+			// 	"pagePath": "pages/record/record",
+			// 	"selectedIconPath": "static/image/HistorySelect.png",
+			// 	"text": "历史记录"
+			// },
+			{
+				"iconPath": "static/image/my.png",
+				"pagePath": "pages/my/my",
+				"selectedIconPath": "static/image/myselect.png",
+				"text": "个人中心"
+			}
+		]
+	},
+	"subPackages": [{
+		"root": "subpackage",
+
+		"pages": [{
+				"path": "user/user",
+				"style": {
+					"navigationBarTitleText": "编辑个人信息"
+				}
+			},
+			{
+				"path": "feedback/feedback",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": ""
+				}
+			},
+			{
+				"path": "register/register",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": ""
+				}
+			},
+			{
+				"path": "previewWord/previewWord",
+				"style": {
+					"navigationBarTitleText": "木瓜AI合同宝"
+				}
+			},
+			{
+				"path": "shareWord/shareWord",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			},
+			{
+				"path": "orderDetails/orderDetails",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "订单详情"
+				}
+			},
+			{
+				"path": "invoiceManagement/invoiceManagement",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "发票管理"
+				}
+			},
+			{
+				"path": "invoiceDetails/invoiceDetails",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "发票详情页"
+				}
+			},
+			{
+				"path": "applyInvoicing/applyInvoicing",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "申请开票"
+				}
+			},
+			{
+				"path": "documentList/documentList",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": ""
+				}
+			},
+			{
+				"path": "documentDetail/documentDetail",
+				"style": {
+					"navigationBarTitleText": "文件模板详情"
+				}
+			},
+			{
+				"path": "previewTemplate/previewTemplate",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			},
+			{
+				"path": "collect/collect",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": ""
+				}
+			},
+			{
+				"path": "allRights/allRights",
+				"style": {
+					"navigationBarTitleText": "所有权益"
+				}
+			},
+			{
+				"path": "myOrder/myOrder",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "我的订单"
+				}
+			},
+			{
+				"path": "applicationDrawback/applicationDrawback",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "申请退款"
+				}
+			},
+			{
+				"path": "buyVip/buyVip",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "会员充值"
+				}
+			},
+			{
+				"path": "pay/pay",
+				"style": {
+					"navigationBarTitleText": "支付宝支付"
+				}
+			},
+			{
+				"path": "contractType/contractType",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "合同类别选择"
+				}
+			},
+			{
+				"path": "coupon/coupon",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "优惠券"
+				}
+			},
+			{
+				"path": "selectCoupon/selectCoupon",
+				"style": {
+					"navigationBarTitleText": "选择优惠券"
+				}
+			},
+			{
+				"path": "QRCode/QRCode",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			},
+			{
+				"path": "invite/invite",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "",
+					"enableShareAppMessage": true
+				}
+			},
+			{
+				"path": "mySunCode/mySunCode",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "我的邀请码"
+				}
+			},
+			{
+				"path": "exchangeHistory/exchangeHistory",
+				"style": {
+					"navigationBarTitleText": "积分历史"
+				}
+			},
+			{
+				"path": "photoScan/photoScan",
+				"style": {
+					"navigationBarTitleText": "拍照扫描",
+					"navigationBarBackgroundColor":"#000",
+					"navigationBarTextStyle":"white"
+				}
+			},
+			{
+				"path": "photoDetail/photoDetail",
+				"style": {
+					"navigationBarTitleText": "已拍合同"
+				}
+			},
+			{
+				"path": "photoResult/photoResult",
+				"style": {
+					"navigationBarTitleText": "识别结果"
+				}
+			},
+			{
+				"path" : "teenMode/teenMode",
+				"style" : 
+				{	"navigationStyle":"custom",
+					"navigationBarTitleText" : ""
+				}
+			},
+			{
+				"path": "muguaFile/serviceAgreement",
+				"style": {
+					"navigationBarTitleText": "服务协议"
+				}
+			},
+			{
+				"path": "muguaFile/privacyPolicy",
+				"style": {
+					"navigationBarTitleText": "隐私政策"
+				}
+			},
+			{
+				"path": "muguaFile/disclaimer",
+				"style": {
+					"navigationBarTitleText": "免责协议"
+				}
+			},
+			{
+				"path": "muguaFile/memberServiceAgreement",
+				"style": {
+					"navigationBarTitleText": "会员服务协议"
+				}
+			},
+			{
+				"path" : "photoPreview/photoPreview",
+				"style" : 
+				{
+					"navigationBarTitleText" : "预览"
+				}
+			},
+			{
+				"path" : "photoTextProofread/photoTextProofread",
+				"style" : 
+				{
+					"navigationBarTitleText" : "文字校对"
+				}
+			},
+			{
+				"path" : "photoEditor/photoEditor",
+				"style" : 
+				{
+					"navigationBarTitleText" : "预览"
+				}
+			},
+			{
+				"path":"historicalPoints/historicalPoints",
+				"style":
+				{
+					"navigationStyle":"custom",
+					"navigationBarTitleText" : ""
+				}
+			},
+			{
+				"path" : "inviteHistory/inviteHistory",
+				"style" : 
+				{
+					"navigationStyle":"custom",
+					"navigationBarTitleText" : ""
+				}
+			}
+		]
+	}],
+	"preloadRule": {
+		"pages/my/my": {
+			"network": "all",
+			"packages": ["subpackage"]
+		}
+
+	}
+}

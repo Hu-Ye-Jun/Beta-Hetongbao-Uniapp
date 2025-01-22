@@ -1,0 +1,26 @@
+{
+    "id": "l-painter",
+    "name": "l-painter",
+    "displayName": "l-painter",
+    "version": "1.0.3",
+    "description": "canvas生成图片和二维码，使用json配置canvas",
+    "keywords": [
+        "Painter",
+        "二维码",
+        "canvas",
+        "l-painter"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    },
+    "dependencies": {
+        "@dcloudio/uni-ui": "^1.5.6",
+        "axios": "^1.7.7",
+        "pinyin": "^2.8.0",
+        "qrcodejs2": "^0.0.2",
+        "uview-plus": "^3.3.34"
+    }
+}
